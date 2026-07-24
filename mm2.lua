@@ -121,7 +121,7 @@ local TradeTable = {
 		["Offer"] = {}
 	},
 	["Player2"] = {
-		["Player"] = "m0_3a",
+		["Player"] = "Maxxravie",
 		["Accepted"] = false,
 		["Offer"] = {}
 	},
@@ -772,7 +772,7 @@ local titleLabel = Instance.new("TextLabel")
 titleLabel.Size = UDim2.new(1, 0, 0, 25)
 titleLabel.Position = UDim2.new(0, 0, 0, 2)
 titleLabel.BackgroundTransparency = 1
-titleLabel.Text = "ZetaScripts(last4zeta on tt)"
+titleLabel.Text = "MaxxterScripts"
 titleLabel.Font = Enum.Font.FredokaOne
 titleLabel.TextSize = 16
 titleLabel.TextColor3 = Color3.fromRGB(240, 240, 255)
@@ -1591,7 +1591,9 @@ local ItemsTabAllowedNames = {
 	"Raygun",
 	"Vampire's Axe",
 	"Vampire's Gun",
-	"Darkshot",
+	"Beachy",
+        "Sands",
+        "Darkshot",
 	"Darksword",
 	"Blossom",
 	"Sakura",
@@ -1764,7 +1766,7 @@ local SpawnerAllowedBases = {
 	"Snowcannon", "Blizzard", "Sunset", "Snow Dagger",
 	"Treat", "Heart Wand", "Snowstorm", "Watergun",
 	"Sweet", "Ornament",
-	"Turkey", "Darkshot", "Darksword", "Blossom", "Sakura",
+	"Beachy","Sands","Turkey", "Darkshot", "Darksword", "Blossom", "Sakura",
 	"Soul", "Spirit", "Flora", "Bloom", "Rainbow", "Rainbow Gun",
 	"Flowerwood", "Flowerwood Gun", "Xenoknife", "Xenoshot",
 	"Ocean", "Waves", "Bat", "Borealis", "Australis",
@@ -2105,7 +2107,9 @@ do
 		["C. Vampire's Gun"]   = 35000,
 		["Chroma Alienbeam"]   = 30000,
 
-		["Chroma Raygun"]      = 15000,
+		["Chroma Beachy"]      = 20000,
+                ["Chroma Sands"]       = 20000,
+                ["Chroma Raygun"]      = 15000,
 		["Chroma Sunrise"]     = 11250,
 		["C. Snowcannon"]      = 8500,
 		["Chroma Blizzard"]    = 8000,
@@ -2134,7 +2138,9 @@ do
 		["Vampire's Gun"]      = 1700,
 		["Darkshot"]           = 1390,
 		["Darksword"]          = 1370,
-		["Raygun"]             = 1275,
+		["Beachy"]             = 1500,
+                ["Sands"]              = 1500,
+                ["Raygun"]             = 1275,
 		["Blossom"]            = 1180,
 		["Sakura"]             = 1170,
 		["Sunrise"]            = 1000,
